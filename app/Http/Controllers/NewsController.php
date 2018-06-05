@@ -24,7 +24,8 @@ class NewsController extends Controller
      */
     public function create()
     {
-        //
+		$charitiesData = [];
+        return view('news.add',compact('charitiesData'));
     }
 
     /**
